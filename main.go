@@ -40,5 +40,5 @@ func main() {
 	fmt.Printf("__ Анализ файла: %s __\n", filePath)
 	fmt.Printf("Количество символов: %d\n", charCount)
 	fmt.Printf("Количество строк: %d\n", lineCount)
-	fmt.Printf("Количество слов: %d\n", wordCount) // ← ЭТОЙ СТРОКИ НЕ ХВАТАЛО
+	fmt.Printf("Количество слов: %d\n", wordCount) 
 }
