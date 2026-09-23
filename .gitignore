@@ -1,0 +1,13 @@
+@"
+# Игнорировать скомпилированные бинарные файлы
+go-text
+go-text.exe
+
+# Временные файлы Go
+*.test
+*.out
+
+# Файлы IDE
+.idea/
+.vscode/
+"@ | Out-File -Encoding utf8 .gitignore
